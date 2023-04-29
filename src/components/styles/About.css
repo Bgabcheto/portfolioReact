@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Sans:wght@200&display=swap');
+.secondSection {
+    width: 100%;
+    height: 100vh;
+    background-color: #D2E9DE;
+    border: 7px solid rgb(150, 145, 155);
+    font-family:  'Dancing Script', sans-serif;;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color:rgb(127, 114, 128);
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.container-two {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-between;
+    font-size: 30px;
+    color: rgb(85, 80, 85);
+    font-weight: bold;
+}
+
+.text-two p {
+    border-bottom: 2px solid rgb(85, 80, 85) ;
+}
+
+.text-two h3 {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+ .img-cont img {
+    width: 350px;
+    height: 350px;
+    border: 7px solid rgb(109, 97, 109);
+}
+.text-two {
+    border: 7px solid rgb(109, 97, 109);
+    width: 350px;
+    height: 350px;
+    line-height: 50px;
+    text-align: center;
+}

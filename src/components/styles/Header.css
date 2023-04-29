@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Sans:wght@200&display=swap');
+.header {
+    width: 100%;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
+    position: absolute;
+}
+
+nav {
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    color:rgb(162, 147, 175);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 3.5rem;
+}
+
+ul li a {
+    color:rgb(107, 74, 105);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid rgb(133, 102, 161);
+}
+
+.hamburger-menu {
+    display: flex;
+}
+.hamburger-menu .menu {
+    color: rgb(133, 102, 161);
+}
+
+.slider {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(150, 145, 155);
+    top: 0;
+    z-index: 1;
+    transition: 1s ease;
+    right: -100%;
+}
+
+.slider .slider-ul {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.slider-ul li {
+    width: 400px;
+    border: 3px solid whitesmoke;
+    padding: 45px;
+}
+.slider-ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    color: blanchedalmond;
+}
+
+.slider.active {
+    right: 0;
+}
